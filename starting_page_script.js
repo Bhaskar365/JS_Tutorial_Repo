@@ -163,6 +163,61 @@ console.log(String(23),23);
 
 console.log(Boolean(0),Boolean(undefined),Boolean('Jonas'),Boolean({}));
 
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+if(shouldDrive)
+{
+    console.log('eligible to drive');
+}
+else
+{
+    console.log('not eligible to drive');
+}
+
+const isTired = true;
+if(hasDriversLicense || hasGoodVision || !isTired)
+{
+    console.log('yes drive');
+}     
+else
+{
+    console.log('no drive');
+}
+
+const day = 1;
+
+switch(day)
+{
+    case 1: 
+        console.log('1 entered');
+        break;
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    case 7:
+        console.log('other than 1 entered');
+        break;
+    default:
+        console.log('not a valid input');
+}
+
+const age = 19;
+age>=18 ? 'Over 18' : 'Less than 18';
+
+console.log(age);
+
+
+
+
 
 
 
