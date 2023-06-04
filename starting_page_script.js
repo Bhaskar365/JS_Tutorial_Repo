@@ -117,22 +117,53 @@
 
 // alert(`${country}'s population is ${population > 330000 ? 'above' : 'below'} average`);
 
-const ageJonas = 2033-1999;
-const ageSarah = 2033-2004;
+// const ageJonas = 2033-1999;
+// const ageSarah = 2033-2004;
  
-console.log(ageJonas,ageSarah);
+// console.log(ageJonas,ageSarah);
 
-let x ,y;
-x=y=25-5-2;
-console.log(x , y);
+// let x ,y;
+// x=y=25-5-2;
+// console.log(x , y);
 
-// const john = 'teacher';
-// const w = `I'm ${john}`;
-// alert(w);
+// // const john = 'teacher';
+// // const w = `I'm ${john}`;
+// // alert(w);
 
-alert('String with \n\
- multiple \n\
- lines  ');
+// alert('String with \n\
+//  multiple \n\
+//  lines  ');
+
+// console.log(`String
+// multiple
+// lines
+// examples`);
+
+// const age = 12;
+// const isOldEnough = age>=18;
+
+// if(isOldEnough)
+// {
+//     console.log('can drive car');
+// }
+// else
+// {
+//     const wait = 18 - age;
+//     console.log(`You are too young to drive. Wait for another ${wait} years. `);
+// }
+
+const inputYear = '1991';
+console.log(Number(inputYear) , inputYear);
+console.log(Number(inputYear) + 15);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+console.log(Boolean(0),Boolean(undefined),Boolean('Jonas'),Boolean({}));
+
+
 
 
 
